@@ -1,0 +1,7 @@
+This is a placeholder for your resume PDF file.
+
+To add your actual resume:
+1. Replace this file with your actual resume.pdf
+2. Or update the href in AboutMe.tsx to point to your resume URL
+
+The file should be named "resume.pdf" and placed in the public folder.
