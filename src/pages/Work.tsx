@@ -96,7 +96,7 @@ const Work: React.FC = () => {
       <p>Discover my professional journey and the skills I've developed along the way.</p>
       
       <div className="timeline">
-        {experiences.map((experience, index) => (
+        {experiences.map((experience) => (
           <div key={experience.id} className={`timeline-item ${experience.type}`}>
             <div className="timeline-marker">
               <div className="marker-icon">
@@ -107,7 +107,10 @@ const Work: React.FC = () => {
                     className="company-logo"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
-                      e.currentTarget.nextSibling.style.display = 'flex';
+                      const nextSibling = e.currentTarget.nextSibling as HTMLElement;
+                      if (nextSibling) {
+                        nextSibling.style.display = 'flex';
+                      }
                     }}
                   />
                 ) : (

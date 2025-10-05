@@ -161,7 +161,6 @@ body {
 
 .about-page,
 .work-page,
-.projects-page,
 .contact-page {
   background: var(--card-background);
   border-radius: 0;
