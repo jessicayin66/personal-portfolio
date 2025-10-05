@@ -1,6 +1,7 @@
 # Jessica's Personal Portfolio
 
 A personal portfolio website built with React, TypeScript, and Vite.
+Take a look at my [portfolio](https://jessicayin.vercel.app/)!
 
 ## 🛠️ Technologies Used
 
